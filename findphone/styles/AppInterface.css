@@ -1,0 +1,101 @@
+body{
+	background-color: #b3b3b3;
+}
+
+div {
+	display: block;
+}
+
+.bigger-box {
+	display: flex; 
+}
+
+.bigger-box-child {
+	justify-content: center;
+	align-content: center;
+	align-items: center; 
+}
+
+.big-box {
+	font-family: 'Pavanam';
+    width: 320px;
+    height: 568px;
+    background-color: #fff;
+	border: solid .25px #000;
+	display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center; 
+}
+
+.lil-box {
+	align-content: center;
+    align-items: center;
+	border: solid px #000;
+	text-align: center;
+}
+
+.id-box, .pass-box {
+	height: 40px;
+	padding: 8px 8px 0px 8px;
+}
+
+.input-email {
+	border: solid 0.5px rgb(211,211,211);
+	border-bottom: none;
+	border-top-left-radius: 15px; 
+	border-top-right-radius: 15px;
+}
+
+.input-password {
+	border: solid 0.5px rgb(211,211,211);
+	border-bottom-left-radius: 15px; 
+	border-bottom-right-radius: 15px;
+}
+
+
+input {
+	border:none;
+	caret-color: #2eb82e;
+	
+}
+
+input:focus {
+	outline: none;
+}
+
+#icon {
+	height: 85px;
+	width: 85px;
+	position:fixed;
+    top: 80px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.link-part {
+	text-align: center;
+}
+
+.green-link {
+	color: #2eb82e;
+    font-size: 24px;
+	font-weight: normal;
+	text-decoration:none; 
+    
+}
+
+.green-link-small {
+	color: #2eb82e;
+    font-size: 14px;
+	font-weight: normal;
+	text-decoration:none;
+}
+
+.green-link:hoover { 
+	text-decoration: underline;
+}
+
