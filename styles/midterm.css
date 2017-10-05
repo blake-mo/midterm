@@ -1,0 +1,33 @@
+body {
+  margin: 10;
+  font-family: Arial;
+  background-color: #f2f2f2;
+}
+
+.box {
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  background-color: #efefef;
+}
+
+.boilerplate { background-color: #A2DED0; }
+.csslayout { background-color: #F4D03F; }
+.flexbox { background-color: #6C7A89; }
+.jsbasics { background-color: #59ABE3; }
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100vh;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+  .app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
