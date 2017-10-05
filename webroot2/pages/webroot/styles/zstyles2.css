@@ -1,0 +1,10 @@
+body {
+	background: #34495E; font-family: verdana;
+}
+img {
+	display: block; /*this overrides the inline styling of images for the user agent stylesheet*/
+}
+
+#top {
+	fext-decoration: underline;
+{

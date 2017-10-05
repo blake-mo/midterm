@@ -1,0 +1,12 @@
+ body {font-family: Tahoma;
+  background: #D8D8D8;
+  }
+  
+h1,h3{font-family: Tahoma;
+  color: #9A2EFE	
+}
+
+img {
+	display: block; /*this overrides the inline styling of images 
+	for the user agent stylesheet*/
+}
