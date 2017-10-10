@@ -1,7 +1,9 @@
 body {
   margin: 10;
   font-family: Arial;
-  background-color: #f2f2f2;
+  background-color: #BEBEBE;
+  text-align: center;
+  color: #ffffff; 
 }
 
 .box {
@@ -11,10 +13,26 @@ body {
   background-color: #efefef;
 }
 
-.boilerplate { background-color: #A2DED0; }
-.csslayout { background-color: #F4D03F; }
-.flexbox { background-color: #6C7A89; }
-.jsbasics { background-color: #59ABE3; }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.boilerplate { background-color: #27dbe5; }
+.csslayout { background-color: #26bfe5; }
+.flexbox { background-color: #269ee5; }
+.jsbasics { background-color: #105ff2; }
 
 /* Our Grid Code */
 .app-layout {
